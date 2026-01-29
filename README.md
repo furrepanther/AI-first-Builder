@@ -156,7 +156,7 @@
 
 ```bash
 # Clone the repository
-git clone https://github.com/Sam-AI/Sam-AI.git
+git clone https://github.com/SamTerces.git
 
 # Navigate to project directory
 cd Sam-AI
@@ -313,7 +313,7 @@ features grid, and pricing cards"
 
 ### 🚀 Deploy to Vercel
 
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https://github.com/Sam-AI/Sam-AI)
+[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https://github.com/SamTerces)
 
 ### 🔧 Environment Variables Required
 
@@ -355,7 +355,7 @@ gitGraph
 
 ### 👥 Contributors
 
-<a href="https://github.com/Sam-AI/Sam-AI/graphs/contributors">
+<a href="https://github.com/SamTerces/graphs/contributors">
   <img src="https://contrib.rocks/image?repo=Sam-AI/Sam-AI"/>
 </a>
 
@@ -375,8 +375,8 @@ gitGraph
 
 ### 💬 Get Help
 
-[![Discussions](https://img.shields.io/badge/GitHub-Discussions-181717?style=for-the-badge&logo=github)](https://github.com/Sam-AI/Sam-AI/discussions)
-[![Issues](https://img.shields.io/badge/Issues-Report_Bug-red?style=for-the-badge&logo=github)](https://github.com/Sam-AI/Sam-AI/issues)
+[![Discussions](https://img.shields.io/badge/GitHub-Discussions-181717?style=for-the-badge&logo=github)](https://github.com/SamTerces/discussions)
+[![Issues](https://img.shields.io/badge/Issues-Report_Bug-red?style=for-the-badge&logo=github)](https://github.com/SamTerces/issues)
 
 ### ⭐ Show Your Support
 
@@ -386,7 +386,7 @@ gitGraph
 
 Give a ⭐ if this project helped you!
 
-[![GitHub stars](https://img.shields.io/github/stars/Sam-AI/Sam-AI?style=social)](https://github.com/Sam-AI/Sam-AI)
+[![GitHub stars](https://img.shields.io/github/stars/Sam-AI/Sam-AI?style=social)](https://github.com/SamTerces)
 
 </td>
 

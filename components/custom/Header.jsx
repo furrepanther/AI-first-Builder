@@ -41,7 +41,7 @@ function Header() {
 
                             {/* GitHub Link */}
                             <a
-                                href="https://github.com/Sam-AI/Sam-AI"
+                                href="https://github.com/SamTerces"
                                 target="_blank"
                                 rel="noopener noreferrer"
                                 className="p-2.5 rounded-xl bg-white/5 hover:bg-white/10 border border-white/10 hover:border-white/20 transition-all duration-300"

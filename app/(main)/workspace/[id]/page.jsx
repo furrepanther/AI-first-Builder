@@ -24,7 +24,7 @@ const CodeView = dynamic(() => import('@/components/custom/CodeView'), {
 
 const Workspace = () => {
     return (
-        <div className="min-h-screen relative mt-24 overflow-hidden bg-[#030014]">
+        <div className="min-h-screen relative mt-20 overflow-hidden bg-[#030014]">
             {/* Animated gradient background */}
             <div className="absolute inset-0">
                 {/* Gradient orbs */}
