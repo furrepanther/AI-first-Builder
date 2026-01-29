@@ -1,11 +1,11 @@
-import openai, { chatConfig } from "@/configs/AiModel";
+import getOpenAI, { chatConfig } from "@/configs/AiModel";
 import Prompt from "@/data/Prompt";
 
 export async function POST(req) {
     const {prompt} = await req.json();
 
     try {
-        const stream = await openai.chat.completions.create({
+        const stream = await getOpenAI().chat.completions.create({
             ...chatConfig,
             messages: [
                 { role: "system", content: Prompt.CHAT_PROMPT },

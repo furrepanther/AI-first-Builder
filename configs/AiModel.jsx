@@ -1,8 +1,15 @@
 import OpenAI from 'openai';
 
-const openai = new OpenAI({
-    apiKey: process.env.OPENAI_API_KEY,
-});
+let openai = null;
+
+export function getOpenAI() {
+    if (!openai) {
+        openai = new OpenAI({
+            apiKey: process.env.OPENAI_API_KEY,
+        });
+    }
+    return openai;
+}
 
 // Chat configuration
 export const chatConfig = {
@@ -53,4 +60,4 @@ Additionally, include an explanation of the project's structure, purpose, and ad
 - Add Emoji icons whenever needed to give a good user experience
 - The lucide-react library is also available to be imported IF NECESSARY.`;
 
-export default openai;
+export default getOpenAI;

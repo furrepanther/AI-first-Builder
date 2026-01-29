@@ -1,11 +1,11 @@
-import openai, { enhancePromptConfig } from "@/configs/AiModel";
+import getOpenAI, { enhancePromptConfig } from "@/configs/AiModel";
 import Prompt from "@/data/Prompt";
 
 export async function POST(request) {
     try {
         const { prompt } = await request.json();
 
-        const stream = await openai.chat.completions.create({
+        const stream = await getOpenAI().chat.completions.create({
             ...enhancePromptConfig,
             messages: [
                 { role: "system", content: Prompt.ENHANCE_PROMPT_RULES },

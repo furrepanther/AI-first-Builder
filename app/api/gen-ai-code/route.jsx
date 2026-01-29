@@ -1,10 +1,10 @@
-import openai, { codeGenConfig, codeGenSystemMessage } from '@/configs/AiModel';
+import getOpenAI, { codeGenConfig, codeGenSystemMessage } from '@/configs/AiModel';
 import Prompt from '@/data/Prompt';
 
 export async function POST(req) {
     const {prompt} = await req.json();
     try {
-        const stream = await openai.chat.completions.create({
+        const stream = await getOpenAI().chat.completions.create({
             ...codeGenConfig,
             messages: [
                 { role: "system", content: Prompt.CODE_GEN_PROMPT },
