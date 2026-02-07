@@ -2,40 +2,34 @@
   <img src="https://github.com/user-attachments/assets/024b29be-3059-492d-bdcc-d82af0325e64">
 </p>
 
-<h1 align="center">🚀 AI-Powered Website Builder</h1>
+<h1 align="center">🤖 App Builder — AI Website Generator</h1>
 
-<p align="center"><i>Build Stunning Websites with AI Assistance</i></p>
-<p  align="center">Transform your ideas into fully functional websites using cutting-edge AI technology.
+<p align="center"><i>Build websites instantly with AI • Create your own AI builder</i></p>
+<p align="center">
+An open-source, AI-powered website generator that creates production-ready React applications from natural language prompts. Use it as-is or as a foundation to build your own custom AI builder.
 </p>
 
 <p align="center">
   <a href="https://opensource.org/licenses/MIT">
     <img src="https://img.shields.io/badge/License-MIT-green.svg" alt="License MIT">
   </a>
-  <img src="https://img.shields.io/github/last-commit/Sam-AI/Sam-AI" alt="Last Commit">
-  <img src="https://img.shields.io/github/languages/top/Sam-AI/Sam-AI" alt="Top Language">
-  <img src="https://img.shields.io/github/languages/count/Sam-AI/Sam-AI" alt="Languages">
-  <img src="https://img.shields.io/github/repo-size/Sam-AI/Sam-AI" alt="Repo Size">
+  <img src="https://img.shields.io/badge/PRs-welcome-brightgreen.svg" alt="PRs Welcome">
+  <img src="https://img.shields.io/badge/AI-GPT--4o-blue.svg" alt="GPT-4o Powered">
 </p>
-
 
 <p align="center">
-  <img src="https://img.shields.io/badge/Next.js-000000?style=for-the-badge&logo=nextdotjs&logoColor=white" />
+  <img src="https://img.shields.io/badge/Next.js_15-000000?style=for-the-badge&logo=nextdotjs&logoColor=white" />
+  <img src="https://img.shields.io/badge/React_18-61DAFB?style=for-the-badge&logo=react&logoColor=black" />
   <img src="https://img.shields.io/badge/Tailwind_CSS-06B6D4?style=for-the-badge&logo=tailwindcss&logoColor=white" />
-  <img src="https://img.shields.io/badge/Convex-FF6F61?style=for-the-badge&logo=data:image/svg+xml;base64,... " />
-  <img src="https://img.shields.io/badge/Gemini_AI-4285F4?style=for-the-badge&logo=google&logoColor=white" />
+  <img src="https://img.shields.io/badge/OpenAI_GPT--4o-412991?style=for-the-badge&logo=openai&logoColor=white" />
+  <img src="https://img.shields.io/badge/Convex-FF6F61?style=for-the-badge&logo=convex&logoColor=white" />
 </p>
 
-
-<!-- Animated Line Break -->
 <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif">
 
-<!-- About Section with Cool Icons -->
-<h2 align="center">
-  <img src="https://github.com/Anmol-Baranwal/Cool-GIFs-For-GitHub/assets/74038190/29fd6286-4e7b-4d6c-818f-c4765d5e39a9" width="35">
-  About The Project
-  <img src="https://github.com/Anmol-Baranwal/Cool-GIFs-For-GitHub/assets/74038190/29fd6286-4e7b-4d6c-818f-c4765d5e39a9" width="35">
-</h2>
+## What is App Builder?
+
+App Builder is an **AI-powered website generator** that transforms your ideas into fully functional React applications. Simply describe what you want to build in plain English, and watch as the AI generates complete, production-ready code with modern styling and best practices.
 
 <div align="center">
   <table>
@@ -43,393 +37,291 @@
       <td align="center" width="50%">
         <img src="https://github.com/user-attachments/assets/c30f1bfe-5098-4c22-ab2b-0537f1802322" alt="Preview 1" width="100%"/>
         <br/>
-        <sub><b>Real-time Code Generation</b></sub>
+        <sub><b>Describe your website in natural language</b></sub>
       </td>
       <td align="center" width="50%">
         <img src="https://github.com/user-attachments/assets/f7187bb9-1905-444c-9b0d-1fc47d8ec9c9" alt="Preview 2" width="100%"/>
         <br/>
-        <sub><b>In-built Live Preview</b></sub>
+        <sub><b>Get production-ready React code instantly</b></sub>
       </td>
     </tr>
   </table>
 </div>
 
-<div align="center">
-  <br/>
-  
-  > 🌟 **AI Website Builder** is a cutting-edge platform that revolutionizes web development by combining the power of **Gemini Flash 2.0 AI** with modern web technologies. Transform your ideas into fully functional, beautiful websites using natural language - no coding experience required!
-  
-</div>
-<div  align="center">
-     ⚠️ Note: The deployed live preview may not work as expected because code generation takes longer than Vercel’s API timeout limits.
-</div>
+### Two Ways to Use This Project
 
-<!-- Features Section with Animated Icons -->
+| For End Users | For Developers |
+|--------------|----------------|
+| Generate websites instantly from prompts | Fork and customize to build your own AI builder |
+| Export production-ready React code | Swap AI providers (OpenAI, Anthropic, Gemini, etc.) |
+| Live preview with hot reload | Modify prompts for different frameworks |
+| Download complete project files | Add your own features and integrations |
+
 <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif">
 
-<h2 align="center">
-  <img src="https://media2.giphy.com/media/QssGEmpkyEOhBCb7e1/giphy.gif" width="35">
-  Features
-  <img src="https://media2.giphy.com/media/QssGEmpkyEOhBCb7e1/giphy.gif" width="35">
-</h2>
+## Features
 
-<div align="center">
-
-| <img src="https://github.com/Anmol-Baranwal/Cool-GIFs-For-GitHub/assets/74038190/3fb3c0e0-6593-4bb0-8063-83c5a3701b00" width="60"><br>**AI-Powered Magic** | <img src="https://github.com/Anmol-Baranwal/Cool-GIFs-For-GitHub/assets/74038190/dc383bd4-0752-4812-b83f-2e5f91e85c49" width="60"><br>**Modern Development** | <img src="https://github.com/Anmol-Baranwal/Cool-GIFs-For-GitHub/assets/74038190/cc4db401-7578-4c7a-b045-210e59249819" width="60"><br>**Developer Experience** |
+| AI Generation | Developer Experience | Customization |
 |:---:|:---:|:---:|
-| 🧠 Smart Content Generation <br> 🎯 Natural Language to Code <br> 💡 Intelligent Suggestions <br> 🔮 Component Synthesis | ⚡ Lightning Fast <br> 🎨 Beautiful by Default <br> 🔄 Real-time Updates <br> 📱 Fully Responsive | 🛠️ Export Ready <br> 🌗 Theme Switcher <br> 🔧 Customizable <br> 📊 SEO Optimized |
+| Natural language to code | Live code preview | Swappable AI models |
+| Multi-file project generation | Real-time updates | Customizable prompts |
+| Smart component organization | Export & download | Extensible architecture |
+| Modern Tailwind styling | Sandpack integration | Open source codebase |
 
-</div>
+**What the AI Generates:**
+- Complete React applications with proper file structure
+- Modern, responsive Tailwind CSS styling
+- Gradient backgrounds, glassmorphism, and animations
+- Lucide React icons and Framer Motion animations
+- Production-ready, well-organized code
 
-
-<!-- Tech Stack with Animated Skills -->
 <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif">
 
-<h2 align="center">
-  <img src="https://github.com/Anmol-Baranwal/Cool-GIFs-For-GitHub/assets/74038190/de038172-e903-4951-926c-755878deb0b4" width="35">
-  Tech Stack
-  <img src="https://github.com/Anmol-Baranwal/Cool-GIFs-For-GitHub/assets/74038190/de038172-e903-4951-926c-755878deb0b4" width="35">
-</h2>
+## Quick Start
 
-<div align="center">
-  
-  ### 🎯 Core Technologies
-  
-  <img src="https://skillicons.dev/icons?i=nextjs,react,typescript,tailwind" alt="Core Tech" />
-  
-  ### 🤖 AI & Backend
-  
-  <img src="https://img.shields.io/badge/Gemini_Flash_2.0-4285F4?style=for-the-badge&logo=google&logoColor=white" alt="Gemini" />
-  <img src="https://img.shields.io/badge/Convex-FF6F61?style=for-the-badge&logo=convex&logoColor=white" alt="Convex" />
-  
-  ### 🛠️ Tools & Libraries
-  
-  <img src="https://skillicons.dev/icons?i=vercel,git,github,vscode,npm" alt="Tools" />
-  
-</div>
+### Prerequisites
 
-<!-- Quick Start Section -->
-<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif">
+- Node.js 18+
+- OpenAI API key ([Get one here](https://platform.openai.com/api-keys))
+- Convex account ([Sign up free](https://convex.dev))
 
-<h2 align="center">
-  <img src="https://github.com/Anmol-Baranwal/Cool-GIFs-For-GitHub/assets/74038190/2c0eef4b-7b75-42bd-9722-4bea97a2d532" width="35">
-  Quick Start
-  <img src="https://github.com/Anmol-Baranwal/Cool-GIFs-For-GitHub/assets/74038190/2c0eef4b-7b75-42bd-9722-4bea97a2d532" width="35">
-</h2>
-
-<div align="center">
-
-### 📋 Prerequisites
-
-<table>
-<tr>
-<td align="center">
-
-**Node.js**
-<br/>
-[![Node Version](https://img.shields.io/badge/node-%3E%3D18.0.0-brightgreen?style=flat-square&logo=node.js)](https://nodejs.org/)
-
-</td>
-<td align="center">
-
-**Package Manager**
-<br/>
-[![npm](https://img.shields.io/badge/npm-latest-red?style=flat-square&logo=npm)](https://www.npmjs.com/)
-
-</td>
-<td align="center">
-
-**Gemini API**
-<br/>
-[![API Key](https://img.shields.io/badge/API_Key-Required-blue?style=flat-square&logo=google)](https://ai.google.dev/)
-
-</td>
-</tr>
-</table>
-
-</div>
-
-### 🚀 Installation
-
-<details open>
-<summary><b>1️⃣ Clone & Install</b></summary>
+### Installation
 
 ```bash
 # Clone the repository
-git clone https://github.com/SamTerces.git
-
-# Navigate to project directory
-cd Sam-AI
+git clone https://github.com/SamTerces/App-Builder.git
+cd App-Builder
 
 # Install dependencies
 npm install
-# or
-yarn install
-# or
-pnpm install
+
+# Set up environment variables
+cp .env.example .env.local
 ```
 
-</details>
+### Environment Variables
 
-<details open>
-<summary><b>2️⃣ Environment Setup</b></summary>
-
-Create a `.env.local` file in the root directory:
+Create a `.env.local` file with:
 
 ```env
-# AI Configuration
-GEMINI_API_KEY=your_gemini_api_key_here
+# Required: OpenAI API Key
+OPENAI_API_KEY=your_openai_api_key_here
 
-# Convex Configuration
+# Required: Convex Deployment URL
 NEXT_PUBLIC_CONVEX_URL=your_convex_deployment_url
-
 ```
 
-</details>
-
-<details open>
-<summary><b>3️⃣ Start Development</b></summary>
+### Run the Development Server
 
 ```bash
-# Start the development server
+# Terminal 1: Start Next.js
 npm run dev
 
-# In a new terminal, start Convex
+# Terminal 2: Start Convex (in a separate terminal)
 npx convex dev
-
-# Open http://localhost:3000
 ```
 
-</details>
+Open [http://localhost:3000](http://localhost:3000) and start building!
 
-<!-- Project Structure -->
 <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif">
 
-<h2 align="center">
-  <img src="https://github.com/Anmol-Baranwal/Cool-GIFs-For-GitHub/assets/74038190/b40aa850-55dc-452e-9795-4fa292e63657" width="35">
-  Project Architecture
-  <img src="https://github.com/Anmol-Baranwal/Cool-GIFs-For-GitHub/assets/74038190/b40aa850-55dc-452e-9795-4fa292e63657" width="35">
-</h2>
+## How It Works
 
-```mermaid
-graph TB
-    A[User Interface] -->|Requests| B[Next.js App Router]
-    B --> C[API Routes]
-    C --> D[Gemini AI API]
-    C --> E[Convex Backend]
-    E --> F[(Real-time Database)]
-    D -->|AI Response| C
-    E -->|Live Updates| B
-    B -->|Server Components| G[React Components]
-    G --> H[Tailwind Styling]
-    
-    style A fill:#f9f,stroke:#333,stroke-width:4px
-    style D fill:#4285F4,stroke:#333,stroke-width:2px
-    style E fill:#FF6F61,stroke:#333,stroke-width:2px
+```
+┌─────────────────┐     ┌──────────────────┐     ┌─────────────────┐
+│   User Prompt   │────▶│   AI Processing  │────▶│  Generated App  │
+│                 │     │                  │     │                 │
+│ "Create a SaaS  │     │  • GPT-4o        │     │  • React files  │
+│  landing page   │     │  • Prompt Engine │     │  • Tailwind CSS │
+│  with pricing"  │     │  • Code Gen      │     │  • Components   │
+└─────────────────┘     └──────────────────┘     └─────────────────┘
+                                                          │
+                                                          ▼
+                                               ┌─────────────────┐
+                                               │   Live Preview  │
+                                               │                 │
+                                               │   Sandpack IDE  │
+                                               │   Code Editor   │
+                                               │   Export/DL     │
+                                               └─────────────────┘
 ```
 
-<details>
-<summary><b>📁 Folder Structure</b></summary>
+### The Generation Pipeline
 
-```bash
-Sam-AI/
-│
-├── 📂 app/                    # Next.js 14 App Router
-│   ├── 📂 api/               # API endpoints
-│   ├── 📂 (routes)/          # Page routes
-│   └── 📄 layout.tsx         # Root layout
-│
-├── 📂 components/            # React Components
-│   ├── 📂 ai/              # AI-related components
-│   ├── 📂 ui/              # UI components
-│   └── 📂 layouts/         # Layout components
-│
-├── 📂 lib/                  # Utilities
-│   ├── 📄 ai-client.ts    # AI integration
-│   └── 📄 utils.ts        # Helper functions
-│
-├── 📂 convex/              # Backend
-│   ├── 📄 schema.ts       # Database schema
-│   └── 📄 functions.ts    # Server functions
-│
-├── 📂 styles/              # Styling
-│   └── 📄 globals.css     # Global styles
-│
-└── 📂 public/              # Static assets
+1. **Prompt Enhancement** — Your simple prompt is enhanced with detailed design specifications
+2. **AI Code Generation** — GPT-4o generates complete React code with proper structure
+3. **Live Preview** — See your app instantly in the embedded Sandpack environment
+4. **Export** — Download the complete project ready for deployment
+
+<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif">
+
+## Build Your Own AI Builder
+
+This project is designed to be a **foundation for building custom AI builders**. Here's how to customize it:
+
+### 1. Swap AI Providers
+
+Edit `configs/AiModel.jsx` to use different AI providers:
+
+```javascript
+// Current: OpenAI GPT-4o
+import OpenAI from 'openai';
+
+// You can switch to:
+// - Anthropic Claude
+// - Google Gemini
+// - Groq
+// - Local models via Ollama
+// - Any OpenAI-compatible API
 ```
 
-</details>
+### 2. Customize Generation Prompts
 
-<!-- Usage Examples -->
-<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif">
+Edit `data/Prompt.jsx` to change what gets generated:
 
-<h2 align="center">
-  <img src="https://github.com/Anmol-Baranwal/Cool-GIFs-For-GitHub/assets/74038190/7bb63e14-f148-4280-8051-3d692dc49f7f" width="35">
-  Usage Examples
-  <img src="https://github.com/Anmol-Baranwal/Cool-GIFs-For-GitHub/assets/74038190/7bb63e14-f148-4280-8051-3d692dc49f7f" width="35">
-</h2>
-
-<div align="center">
-
-### 💬 Natural Language to Website
-
-<table>
-<tr>
-<td width="50%">
-
-**Your Prompt:**
-```text
-"Create a modern landing page for a 
-SaaS product with a hero section, 
-features grid, and pricing cards"
+```javascript
+// Modify CODE_GEN_PROMPT for different:
+// - Frameworks (Vue, Svelte, Angular)
+// - Styling (CSS Modules, Styled Components)
+// - Design systems (Material UI, Chakra)
+// - Code patterns and structure
 ```
 
-</td>
-<td width="50%">
+### 3. Add New Features
 
-**AI Generates:**
-- ✅ Complete React Components
-- ✅ Responsive Tailwind Styling
-- ✅ SEO-Optimized Content
-- ✅ Interactive Elements
+The modular architecture makes it easy to add:
+- Authentication systems
+- Template libraries
+- Custom component palettes
+- Deployment integrations
+- Version history
+- Collaboration features
 
-</td>
-</tr>
-</table>
+### Project Structure
 
-
-</div>
-
-<!-- Deployment -->
-<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif">
-
-<h2 align="center">
-  <img src="https://github.com/Anmol-Baranwal/Cool-GIFs-For-GitHub/assets/74038190/67f477ed-86a2-4176-8a46-4cbb7b0a18cf" width="35">
-  Deployment
-  <img src="https://github.com/Anmol-Baranwal/Cool-GIFs-For-GitHub/assets/74038190/67f477ed-86a2-4176-8a46-4cbb7b0a18cf" width="35">
-</h2>
-
-<div align="center">
-
-### 🚀 Deploy to Vercel
-
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https://github.com/SamTerces)
-
-### 🔧 Environment Variables Required
-
-| Variable | Description | Required |
-|----------|-------------|----------|
-| `GEMINI_API_KEY` | Your Gemini API key | ✅ Yes |
-| `NEXT_PUBLIC_CONVEX_URL` | Convex deployment URL | ✅ Yes |
-
-</div>
-
-<!-- Contributing -->
-<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif">
-
-<h2 align="center">
-  <img src="https://github.com/Anmol-Baranwal/Cool-GIFs-For-GitHub/assets/74038190/1a797ec4-50c0-43b1-b799-894e2493442d" width="35">
-  Contributing
-  <img src="https://github.com/Anmol-Baranwal/Cool-GIFs-For-GitHub/assets/74038190/1a797ec4-50c0-43b1-b799-894e2493442d" width="35">
-</a>
-</h2>
-
-<div align="center">
-
-We love contributions! Please see our [Contributing Guide](CONTRIBUTING.md) for details.
-
-### 🌟 How to Contribute
-
-```mermaid
-gitGraph
-    commit id: "Fork Repository"
-    branch feature
-    checkout feature
-    commit id: "Create Feature"
-    commit id: "Write Tests"
-    commit id: "Update Docs"
-    checkout main
-    merge feature id: "Open PR"
-    commit id: "Merged! 🎉"
+```
+App-Builder/
+├── app/                    # Next.js 15 App Router
+│   ├── (main)/            # Main app routes
+│   │   └── workspace/     # Workspace pages
+│   ├── api/               # API routes
+│   └── layout.js          # Root layout
+│
+├── components/
+│   ├── custom/            # App-specific components
+│   │   ├── ChatView.jsx   # Chat interface
+│   │   ├── CodeView.jsx   # Code preview with Sandpack
+│   │   ├── Header.jsx     # Navigation header
+│   │   └── Hero.jsx       # Landing page hero
+│   └── ui/                # Reusable UI components
+│
+├── configs/
+│   └── AiModel.jsx        # AI provider configuration
+│
+├── data/
+│   ├── Prompt.jsx         # AI prompts (customize these!)
+│   └── Lookup.jsx         # Static data/constants
+│
+├── convex/                # Convex backend
+│   ├── workspace.js       # Workspace functions
+│   └── schema.ts          # Database schema
+│
+├── context/               # React contexts
+└── lib/                   # Utilities
 ```
 
-### 👥 Contributors
-
-<a href="https://github.com/SamTerces/graphs/contributors">
-  <img src="https://contrib.rocks/image?repo=Sam-AI/Sam-AI"/>
-</a>
-
-</div>
-
-
-<!-- Support -->
 <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif">
 
-<h2 align="center">
-  <img src="https://github.com/Anmol-Baranwal/Cool-GIFs-For-GitHub/assets/74038190/2e0051b6-726f-442f-8025-88936b87ce07" width="35">
-  Support & Community
-  <img src="https://github.com/Anmol-Baranwal/Cool-GIFs-For-GitHub/assets/74038190/2e0051b6-726f-442f-8025-88936b87ce07" width="35">
-</h2>
+## Tech Stack
 
-<div align="center">
+| Category | Technology |
+|----------|------------|
+| **Framework** | Next.js 15 (App Router) |
+| **Frontend** | React 18, Tailwind CSS |
+| **AI** | OpenAI GPT-4o |
+| **Backend** | Convex (real-time database) |
+| **Code Preview** | Sandpack |
+| **Icons** | Lucide React |
+| **Styling** | Tailwind CSS, tailwindcss-animate |
 
-### 💬 Get Help
-
-[![Discussions](https://img.shields.io/badge/GitHub-Discussions-181717?style=for-the-badge&logo=github)](https://github.com/SamTerces/discussions)
-[![Issues](https://img.shields.io/badge/Issues-Report_Bug-red?style=for-the-badge&logo=github)](https://github.com/SamTerces/issues)
-
-### ⭐ Show Your Support
-
-<table>
-<tr>
-<td align="center">
-
-Give a ⭐ if this project helped you!
-
-[![GitHub stars](https://img.shields.io/github/stars/Sam-AI/Sam-AI?style=social)](https://github.com/SamTerces)
-
-</td>
-
-</tr>
-</table>
-
-
-</div>
-
-<!-- Acknowledgments -->
 <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif">
 
-<h2 align="center">
-  <img src="https://github.com/Anmol-Baranwal/Cool-GIFs-For-GitHub/assets/74038190/f3006c22-5790-462f-b620-fb3d8724d98f" width="35">
-  Acknowledgments
-  <img src="https://github.com/Anmol-Baranwal/Cool-GIFs-For-GitHub/assets/74038190/f3006c22-5790-462f-b620-fb3d8724d98f" width="35">
-</h2>
+## Example Prompts
 
-<div align="center">
+Try these prompts to see the AI in action:
 
-Special thanks to these amazing projects and teams:
+| Prompt | What You Get |
+|--------|--------------|
+| "Create a modern portfolio website with dark theme" | Hero, projects grid, about section, contact form |
+| "Build a SaaS landing page with pricing cards" | Hero, features, pricing tiers, testimonials, CTA |
+| "Make a restaurant website with menu and reservations" | Hero, menu sections, gallery, reservation form |
+| "Design a fitness app dashboard" | Stats cards, workout tracker, progress charts |
 
-| Project | Description |
-|---------|-------------|
-| **[Google Gemini](https://ai.google.dev/)** | For powerful AI capabilities |
-| **[Vercel](https://vercel.com/)** | For seamless deployment platform |
-| **[Convex](https://convex.dev/)** | For real-time backend infrastructure |
-| **[Next.js](https://nextjs.org/)** | For the amazing React framework |
-| **[Tailwind CSS](https://tailwindcss.com/)** | For beautiful utility-first CSS |
+<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif">
 
-</div>
+## Contributing
 
-<!-- Footer -->
+Contributions are welcome! Here's how you can help:
+
+1. **Fork** the repository
+2. **Create** a feature branch (`git checkout -b feature/amazing-feature`)
+3. **Commit** your changes (`git commit -m 'Add amazing feature'`)
+4. **Push** to the branch (`git push origin feature/amazing-feature`)
+5. **Open** a Pull Request
+
+### Ideas for Contributions
+
+- Add support for more AI providers
+- Create new starter templates
+- Improve prompt engineering
+- Add export options (CodeSandbox, StackBlitz)
+- Build a template marketplace
+- Add collaborative editing
+
+<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif">
+
+## Deployment
+
+### Deploy to Vercel
+
+[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https://github.com/SamTerces/App-Builder)
+
+**Required Environment Variables:**
+
+| Variable | Description |
+|----------|-------------|
+| `OPENAI_API_KEY` | Your OpenAI API key |
+| `NEXT_PUBLIC_CONVEX_URL` | Convex deployment URL |
+
+> **Note:** The live preview may have limitations on Vercel due to API timeout limits. For best results, run locally or use Vercel Pro for extended timeouts.
+
+<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif">
+
+## License
+
+This project is licensed under the MIT License — see the [LICENSE](LICENSE) file for details.
+
+**You are free to:**
+- Use this commercially
+- Modify and distribute
+- Build and sell your own AI builder based on this
+
+<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif">
+
+## Acknowledgments
+
+Built with these amazing technologies:
+
+- [OpenAI](https://openai.com) — GPT-4o for code generation
+- [Next.js](https://nextjs.org) — React framework
+- [Convex](https://convex.dev) — Real-time backend
+- [Sandpack](https://sandpack.codesandbox.io) — In-browser code preview
+- [Tailwind CSS](https://tailwindcss.com) — Utility-first CSS
+
 <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif">
 
 <div align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,12,20,24,30&height=120&section=footer&text=Build%20Something%20Amazing%20Today!&fontSize=24&fontAlignY=70&animation=twinkling" alt="footer"/>
+  <b>Build your own AI-powered tools with App Builder as your foundation</b>
+  <br><br>
+  <a href="#-app-builder--ai-website-generator">Back to Top</a>
 </div>
-
-<div align="center">
-  <b><a href="#-ai-powered-website-builder">⬆ Back to Top</a></b>
-  
-  <sub>Made with ❤️ by [Sam](https://github.com/Sam-AI) and contributors</sub>
-  
-</div>
-

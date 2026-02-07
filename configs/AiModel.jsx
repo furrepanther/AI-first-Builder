@@ -11,26 +11,26 @@ export function getOpenAI() {
     return openai;
 }
 
-// Chat configuration
+// Chat configuration - friendly conversational responses
 export const chatConfig = {
-    model: "gpt-4o-mini",
-    temperature: 1,
-    max_tokens: 8192,
+    model: "gpt-4o",
+    temperature: 0.7,
+    max_tokens: 4096,
 };
 
-// Code generation configuration
+// Code generation configuration - detailed, high-quality code
 export const codeGenConfig = {
-    model: "gpt-4o-mini",
-    temperature: 1,
-    max_tokens: 8192,
+    model: "gpt-4o",
+    temperature: 0.5,
+    max_tokens: 16384,
     response_format: { type: "json_object" },
 };
 
 // Enhance prompt configuration
 export const enhancePromptConfig = {
-    model: "gpt-4o-mini",
-    temperature: 0.7,
-    max_tokens: 1000,
+    model: "gpt-4o",
+    temperature: 0.6,
+    max_tokens: 2000,
 };
 
 // System message for code generation

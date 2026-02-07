@@ -1,7 +1,11 @@
 "use client"
 import Lookup from '@/data/Lookup';
 import { MessagesContext } from '@/context/MessagesContext';
-import { ArrowRight, Sparkles, Send, Wand2, Loader2, Rocket, Code2, Palette, Globe } from 'lucide-react';
+import {
+    ArrowRight, Sparkles, Send, Wand2, Loader2,
+    Rocket, Code2, Palette, Globe, Zap, Layout,
+    Smartphone, Shield, Stars
+} from 'lucide-react';
 import React, { useContext, useState } from 'react';
 import { useMutation } from 'convex/react';
 import { api } from '@/convex/_generated/api';
@@ -79,89 +83,98 @@ function Hero() {
     };
 
     const features = [
-        { icon: Code2, label: "Smart Code", color: "from-violet-500 to-purple-500" },
-        { icon: Palette, label: "Beautiful UI", color: "from-pink-500 to-rose-500" },
-        { icon: Globe, label: "Deploy Ready", color: "from-cyan-500 to-blue-500" },
+        { icon: Code2, label: "React + Tailwind", desc: "Modern stack" },
+        { icon: Palette, label: "Beautiful Design", desc: "Stunning UI" },
+        { icon: Smartphone, label: "Responsive", desc: "All devices" },
+        { icon: Zap, label: "Fast Generation", desc: "Seconds" },
+    ];
+
+    const stats = [
+        { value: "10K+", label: "Websites Built" },
+        { value: "50+", label: "Components" },
+        { value: "99%", label: "Satisfaction" },
     ];
 
     return (
-        <div className="min-h-screen relative overflow-hidden bg-[#030014]">
-            {/* Animated gradient background */}
+        <div className="min-h-screen relative overflow-hidden bg-[#0a0a0f]">
+            {/* Background Effects */}
             <div className="absolute inset-0">
                 {/* Gradient orbs */}
-                <div className="absolute top-0 -left-40 w-80 h-80 bg-purple-500 rounded-full mix-blend-multiply filter blur-[128px] opacity-30 animate-pulse-slow" />
-                <div className="absolute top-0 -right-40 w-80 h-80 bg-cyan-500 rounded-full mix-blend-multiply filter blur-[128px] opacity-30 animate-pulse-slow animation-delay-2000" />
-                <div className="absolute -bottom-40 left-1/2 w-80 h-80 bg-pink-500 rounded-full mix-blend-multiply filter blur-[128px] opacity-30 animate-pulse-slow animation-delay-4000" />
+                <div className="absolute top-20 left-1/4 w-[500px] h-[500px] bg-indigo-500 rounded-full mix-blend-multiply filter blur-[150px] opacity-20 animate-pulse-slow" />
+                <div className="absolute top-40 right-1/4 w-[400px] h-[400px] bg-purple-500 rounded-full mix-blend-multiply filter blur-[150px] opacity-20 animate-pulse-slow" style={{ animationDelay: '1s' }} />
+                <div className="absolute bottom-0 left-1/2 -translate-x-1/2 w-[600px] h-[400px] bg-pink-500 rounded-full mix-blend-multiply filter blur-[150px] opacity-15" />
 
                 {/* Grid pattern */}
-                <div className="absolute inset-0 bg-[linear-gradient(rgba(255,255,255,0.02)_1px,transparent_1px),linear-gradient(90deg,rgba(255,255,255,0.02)_1px,transparent_1px)] bg-[size:72px_72px]" />
+                <div className="absolute inset-0 bg-[linear-gradient(rgba(255,255,255,0.015)_1px,transparent_1px),linear-gradient(90deg,rgba(255,255,255,0.015)_1px,transparent_1px)] bg-[size:64px_64px]" />
 
                 {/* Radial gradient overlay */}
-                <div className="absolute inset-0 bg-[radial-gradient(ellipse_at_center,transparent_0%,#030014_70%)]" />
+                <div className="absolute inset-0 bg-[radial-gradient(ellipse_at_center,transparent_0%,#0a0a0f_75%)]" />
             </div>
 
-            <div className="container mx-auto px-4 pt-32 pb-16 relative z-10">
-                <div className="flex flex-col items-center justify-center space-y-16">
+            <div className="container mx-auto px-4 pt-28 pb-16 relative z-10">
+                <div className="flex flex-col items-center justify-center">
                     {/* Hero Header */}
-                    <div className="text-center space-y-8 max-w-4xl">
+                    <div className="text-center space-y-6 max-w-4xl mb-12">
                         {/* Badge */}
-                        <div className="inline-flex items-center gap-2 glass-card rounded-full px-5 py-2.5 glow-sm">
-                            <Rocket className="h-4 w-4 text-violet-400" />
-                            <span className="text-sm font-medium bg-gradient-to-r from-violet-400 to-fuchsia-400 text-gradient">
-                                Powered by Advanced AI
+                        <div className="inline-flex items-center gap-2 card-glass rounded-full px-5 py-2 glow-sm">
+                            <Stars className="h-4 w-4 text-amber-400" />
+                            <span className="text-sm font-medium text-gray-300">
+                                AI-Powered Website Generation
+                            </span>
+                            <span className="px-2 py-0.5 rounded-full bg-gradient-to-r from-indigo-500 to-purple-500 text-[10px] font-bold text-white">
+                                NEW
                             </span>
                         </div>
 
                         {/* Main heading */}
-                        <h1 className="text-5xl sm:text-6xl md:text-7xl lg:text-8xl font-bold leading-[1.1] tracking-tight">
-                            <span className="text-white">Build websites</span>
+                        <h1 className="text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-bold font-display leading-[1.1] tracking-tight">
+                            <span className="text-white">Create stunning</span>
                             <br />
-                            <span className="bg-gradient-to-r from-violet-500 via-fuchsia-500 to-pink-500 text-gradient animate-gradient">
-                                with AI magic
+                            <span className="text-gradient-primary animate-gradient bg-[length:200%_auto]">
+                                websites instantly
                             </span>
                         </h1>
 
                         {/* Subtitle */}
-                        <p className="text-lg sm:text-xl text-gray-400 max-w-2xl mx-auto leading-relaxed">
-                            Transform your ideas into stunning, production-ready websites in seconds.
-                            Just describe what you want, and watch the magic happen.
+                        <p className="text-base sm:text-lg text-gray-400 max-w-2xl mx-auto leading-relaxed">
+                            Describe your vision in plain English and watch as AI transforms it into
+                            a beautiful, production-ready website with modern design and clean code.
                         </p>
 
-                        {/* Feature pills */}
-                        <div className="flex flex-wrap items-center justify-center gap-3 pt-2">
-                            {features.map((feature, index) => (
-                                <div
-                                    key={index}
-                                    className="flex items-center gap-2 px-4 py-2 rounded-full bg-white/5 border border-white/10"
-                                >
-                                    <feature.icon className={`h-4 w-4 bg-gradient-to-r ${feature.color} text-gradient`} style={{ color: 'transparent', backgroundClip: 'text', WebkitBackgroundClip: 'text' }} />
-                                    <span className="text-sm text-gray-300">{feature.label}</span>
+                        {/* Stats */}
+                        <div className="flex items-center justify-center gap-8 pt-4">
+                            {stats.map((stat, index) => (
+                                <div key={index} className="text-center">
+                                    <div className="text-2xl font-bold text-gradient-primary">{stat.value}</div>
+                                    <div className="text-xs text-gray-500">{stat.label}</div>
                                 </div>
                             ))}
                         </div>
                     </div>
 
                     {/* Input Section */}
-                    <div className="w-full max-w-3xl">
+                    <div className="w-full max-w-3xl mb-12">
                         <div className="relative">
-                            {/* Glow effect behind input */}
-                            <div className="absolute -inset-1 bg-gradient-to-r from-violet-600 via-fuchsia-600 to-pink-600 rounded-2xl blur-xl opacity-20" />
+                            {/* Glow effect */}
+                            <div className="absolute -inset-1 bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500 rounded-2xl blur-xl opacity-20" />
 
-                            <div className="relative glass-card rounded-2xl p-2">
-                                <div className="bg-[#0a0a1a]/80 rounded-xl p-5">
+                            <div className="relative card-elevated rounded-2xl p-1">
+                                <div className="bg-[#0c0c14] rounded-xl p-5">
                                     <textarea
-                                        placeholder="Describe your dream website... (e.g., 'A modern portfolio with dark theme and animations')"
+                                        placeholder="Describe your dream website... (e.g., 'A modern SaaS landing page with gradient hero, feature cards, and testimonials')"
                                         value={userInput}
                                         onChange={(e) => setUserInput(e.target.value)}
-                                        className="w-full bg-transparent text-white placeholder-gray-500 focus:outline-none text-lg leading-relaxed h-32 resize-none"
+                                        className="w-full bg-transparent text-white placeholder-gray-500 focus:outline-none text-base leading-relaxed h-28 resize-none"
                                         disabled={isEnhancing}
                                     />
 
-                                    {/* Action buttons */}
-                                    <div className="flex items-center justify-between pt-4 border-t border-white/10">
-                                        <div className="flex items-center gap-2 text-sm text-gray-500">
-                                            <Sparkles className="h-4 w-4" />
-                                            <span>AI-powered generation</span>
+                                    {/* Action bar */}
+                                    <div className="flex items-center justify-between pt-4 border-t border-white/[0.08]">
+                                        <div className="flex items-center gap-3">
+                                            <div className="flex items-center gap-2 text-xs text-gray-500">
+                                                <Sparkles className="h-3.5 w-3.5" />
+                                                <span>AI will generate React + Tailwind code</span>
+                                            </div>
                                         </div>
 
                                         <div className="flex items-center gap-2">
@@ -169,12 +182,12 @@ function Hero() {
                                                 <button
                                                     onClick={enhancePrompt}
                                                     disabled={isEnhancing}
-                                                    className="flex items-center gap-2 px-4 py-2.5 rounded-xl bg-white/5 hover:bg-white/10 border border-white/10 hover:border-white/20 text-gray-300 transition-all duration-300 disabled:opacity-50 disabled:cursor-not-allowed"
+                                                    className="btn-secondary flex items-center gap-2 !px-4 !py-2.5 text-sm disabled:opacity-50"
                                                 >
                                                     {isEnhancing ? (
-                                                        <Loader2 className="h-5 w-5 animate-spin" />
+                                                        <Loader2 className="h-4 w-4 animate-spin" />
                                                     ) : (
-                                                        <Wand2 className="h-5 w-5" />
+                                                        <Wand2 className="h-4 w-4" />
                                                     )}
                                                     <span className="hidden sm:inline">Enhance</span>
                                                 </button>
@@ -183,9 +196,9 @@ function Hero() {
                                             <button
                                                 onClick={() => onGenerate(userInput)}
                                                 disabled={!userInput || isEnhancing}
-                                                className="flex items-center gap-2 px-5 py-2.5 rounded-xl bg-gradient-to-r from-violet-600 to-fuchsia-600 hover:from-violet-500 hover:to-fuchsia-500 text-white font-medium transition-all duration-300 disabled:opacity-50 disabled:cursor-not-allowed glow-sm"
+                                                className="btn-primary flex items-center gap-2 !px-5 !py-2.5 text-sm disabled:opacity-50 disabled:cursor-not-allowed"
                                             >
-                                                <Send className="h-5 w-5" />
+                                                <Rocket className="h-4 w-4" />
                                                 <span>Generate</span>
                                             </button>
                                         </div>
@@ -195,27 +208,46 @@ function Hero() {
                         </div>
                     </div>
 
-                    {/* Suggestions Grid */}
-                    <div className="w-full max-w-5xl">
-                        <div className="flex items-center gap-2 mb-6">
+                    {/* Features */}
+                    <div className="grid grid-cols-2 md:grid-cols-4 gap-4 w-full max-w-3xl mb-12">
+                        {features.map((feature, index) => (
+                            <div
+                                key={index}
+                                className="card-glass rounded-xl p-4 text-center hover:border-purple-500/30 transition-all duration-300"
+                            >
+                                <div className="inline-flex p-2.5 rounded-xl bg-gradient-to-br from-purple-500/10 to-pink-500/10 mb-3">
+                                    <feature.icon className="h-5 w-5 text-purple-400" />
+                                </div>
+                                <div className="text-sm font-medium text-white">{feature.label}</div>
+                                <div className="text-xs text-gray-500">{feature.desc}</div>
+                            </div>
+                        ))}
+                    </div>
+
+                    {/* Suggestions */}
+                    <div className="w-full max-w-4xl">
+                        <div className="flex items-center gap-3 mb-5">
                             <div className="h-px flex-1 bg-gradient-to-r from-transparent via-white/10 to-transparent" />
-                            <span className="text-sm text-gray-500 px-4">Quick suggestions</span>
+                            <span className="section-title flex items-center gap-2">
+                                <Layout className="h-3.5 w-3.5" />
+                                Quick Templates
+                            </span>
                             <div className="h-px flex-1 bg-gradient-to-r from-transparent via-white/10 to-transparent" />
                         </div>
 
-                        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
+                        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-3">
                             {Lookup?.SUGGSTIONS.map((suggestion, index) => (
                                 <button
                                     key={index}
                                     onClick={() => onSuggestionClick(suggestion)}
-                                    className="group relative p-5 rounded-xl bg-white/[0.02] hover:bg-white/[0.05] border border-white/5 hover:border-violet-500/30 text-left transition-all duration-300"
+                                    className="group relative p-4 rounded-xl card-glass text-left transition-all duration-300 hover:border-purple-500/30"
                                 >
-                                    <div className="absolute inset-0 bg-gradient-to-br from-violet-500/10 via-transparent to-fuchsia-500/10 opacity-0 group-hover:opacity-100 transition-opacity duration-300 rounded-xl" />
+                                    <div className="absolute inset-0 bg-gradient-to-br from-purple-500/5 via-transparent to-pink-500/5 opacity-0 group-hover:opacity-100 transition-opacity duration-300 rounded-xl" />
                                     <div className="relative flex items-start gap-3">
-                                        <div className="mt-0.5 p-2 rounded-lg bg-violet-500/10 text-violet-400 group-hover:bg-violet-500/20 transition-colors duration-300">
-                                            <ArrowRight className="h-4 w-4" />
+                                        <div className="mt-0.5 p-1.5 rounded-lg bg-purple-500/10 text-purple-400 group-hover:bg-purple-500/20 transition-colors">
+                                            <ArrowRight className="h-3.5 w-3.5" />
                                         </div>
-                                        <span className="text-gray-400 group-hover:text-gray-200 text-sm leading-relaxed transition-colors duration-300">
+                                        <span className="text-gray-400 group-hover:text-gray-200 text-sm leading-relaxed transition-colors">
                                             {suggestion}
                                         </span>
                                     </div>
