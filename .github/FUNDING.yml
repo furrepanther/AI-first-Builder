@@ -1,0 +1,16 @@
+# AutoSiteAI funding configuration
+
+github: [SamTerces]
+
+# Optional — add later if/when you create accounts
+patreon:
+open_collective:
+ko_fi:
+liberapay:
+issuehunt:
+polar:
+buy_me_a_coffee:
+thanks_dev:
+
+custom:
+  - https://github.com/SamTerces
