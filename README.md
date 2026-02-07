@@ -1,6 +1,6 @@
 <div align="center">
 
-# AI-Website-Builder
+# AI-First-Builder
 
 ### AI-Powered Website Generator
 
@@ -22,7 +22,7 @@ Use it to build websites — or as a foundation to create your own AI builder.
 
 ## Overview
 
-AI-Website-Builder is an open-source tool that generates complete React websites from simple text prompts. Describe what you want, and the AI creates multi-file projects with modern Tailwind styling, proper component structure, and live preview.
+AI-First-Builder is an open-source tool that generates complete React websites from simple text prompts. Describe what you want, and the AI creates multi-file projects with modern Tailwind styling, proper component structure, and live preview.
 
 **For Users:** Generate websites instantly without writing code.
 
@@ -63,8 +63,8 @@ AI-Website-Builder is an open-source tool that generates complete React websites
 
 ```bash
 # Clone
-git clone https://github.com/SamTerces/AI-Website-Builder.git
-cd AI-Website-Builder
+git clone https://github.com/SamTerces/AI-First-Builder.git
+cd AI-First-Builder
 
 # Install
 npm install
@@ -173,7 +173,7 @@ Add whatever you need:
 ## Project Structure
 
 ```
-AI-Website-Builder/
+AI-First-Builder/
 ├── app/                    # Next.js App Router
 │   ├── (main)/workspace/   # Workspace pages
 │   ├── api/                # API routes
@@ -214,7 +214,7 @@ AI-Website-Builder/
 
 ### Vercel
 
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https://github.com/SamTerces/AI-Website-Builder)
+[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https://github.com/SamTerces/AI-First-Builder)
 
 Set these environment variables:
 - `OPENAI_API_KEY`
