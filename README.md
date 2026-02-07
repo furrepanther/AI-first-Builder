@@ -1,6 +1,6 @@
 <div align="center">
 
-# App Builder
+# AI-Website-Builder
 
 ### AI-Powered Website Generator
 
@@ -22,7 +22,7 @@ Use it to build websites — or as a foundation to create your own AI builder.
 
 ## Overview
 
-App Builder is an open-source tool that generates complete React websites from simple text prompts. Describe what you want, and the AI creates multi-file projects with modern Tailwind styling, proper component structure, and live preview.
+AI-Website-Builder is an open-source tool that generates complete React websites from simple text prompts. Describe what you want, and the AI creates multi-file projects with modern Tailwind styling, proper component structure, and live preview.
 
 **For Users:** Generate websites instantly without writing code.
 
@@ -63,8 +63,8 @@ App Builder is an open-source tool that generates complete React websites from s
 
 ```bash
 # Clone
-git clone https://github.com/SamTerces/App-Builder.git
-cd App-Builder
+git clone https://github.com/SamTerces/AI-Website-Builder.git
+cd AI-Website-Builder
 
 # Install
 npm install
@@ -173,7 +173,7 @@ Add whatever you need:
 ## Project Structure
 
 ```
-App-Builder/
+AI-Website-Builder/
 ├── app/                    # Next.js App Router
 │   ├── (main)/workspace/   # Workspace pages
 │   ├── api/                # API routes
@@ -214,7 +214,7 @@ App-Builder/
 
 ### Vercel
 
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https://github.com/SamTerces/App-Builder)
+[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https://github.com/SamTerces/AI-Website-Builder)
 
 Set these environment variables:
 - `OPENAI_API_KEY`
@@ -248,6 +248,6 @@ MIT — use it however you want, including commercially.
 
 **Build websites with AI. Or build your own AI builder.**
 
-[Back to top](#app-builder)
+[Back to top](#ai-website-builder)
 
 </div>
