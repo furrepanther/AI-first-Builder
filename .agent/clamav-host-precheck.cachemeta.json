@@ -1,0 +1,10 @@
+{
+  "tool": "clamav_host_precheck",
+  "repo_path": "/mnt/f/.repo-quarantine/AI-first-Builder__20260228T181326Z",
+  "repo_head": "d01540841fcb8cdf205aaa6918dc0b8e5e84b59a",
+  "gate_phase": "3",
+  "clamav_required": "1",
+  "clamav_script_sha": "21adda48e2c13176fe7c5d0f703667c37ee9622799bf4443f98a07e2c8fab26d",
+  "report_path": "/mnt/f/.repo-quarantine/AI-first-Builder__20260228T181326Z/.agent/clamav-host-precheck.json",
+  "generated_at_epoch": 1772302429
+}
